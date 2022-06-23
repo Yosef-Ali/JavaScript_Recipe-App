@@ -88,7 +88,7 @@ form ion-icon {
 	border-radius: 4px;
 }
 
-.item .flex_contianer {
+.item .flex_container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -99,11 +99,14 @@ form ion-icon {
 	margin: 20px 10px 0, 0;
 	font-size: 1.8em;
 	font-weight: 400;
+	padding: 10px 0;
+	flex: 2;
 }
 .item .view_button {
 	text-decoration: none;
 	text-align: center;
 	width: 130px;
+	flex: 1;
 	padding: 10px 0;
 	color: white;
 	background-color: #a4a9b8;
@@ -117,5 +120,4 @@ form ion-icon {
 	margin-top: 10px;
 	font-size: 1.4em;
 	letter-spacing: 0.05em;
-	line-height: 2em;
 }
